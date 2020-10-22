@@ -1,0 +1,16 @@
+name: EagleMC-CTF
+version: 1.0
+author: Beckett O'Brien
+main: com.beckettobrien.ctfmc.CTF
+api-version: 1.15
+
+commands:
+  ctfconfig:
+    description: Start Configuring a new game of CTF!
+    usage: /ctfconfig
+  ctfrun:
+    description: Used to set paramaters for CTF games
+    usage: /ctfset (value) [args] NOTE - Sometimes run from clickevents from /ctfconfig
+  ctfprint:
+    description: Print CTF game variables for debugging and testing
+    usage: /ctfprint (Prints to console)
